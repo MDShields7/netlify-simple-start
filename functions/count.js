@@ -9,3 +9,5 @@ exports.handler = async event => {
       body: `Count is ${count}!`,
     }
   }
+
+exports.count = count;
