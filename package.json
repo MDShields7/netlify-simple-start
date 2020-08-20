@@ -7,6 +7,9 @@
     },
     "scripts": {
         "dev": "netlify-lambda serve functions",
-        "build": "netlify-lambda build functions",
+        "build": "netlify-lambda build functions"
+    },
+    "dependencies": {
+        "sumo-rank": "^1.0.5"
     }
 }
